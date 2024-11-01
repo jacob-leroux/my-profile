@@ -1,0 +1,145 @@
+body {
+	background-color: #E9EAF0;
+	color: black;
+	font-family: Lexend, sans-serif;
+	font-weight: 350;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	color: rgb(25, 25, 112);
+	font-family: Lexend, monospace;
+	font-weight: 200 bold;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+h2 {
+	color: rgb(0, 0, 128);
+	font-family: Lexend, monospace;
+	font-weight: 500 bold;
+	margin: 20px 0 10px;
+}
+
+h3 {
+	color: #B2D6EB;
+	font-family:Lucida Grande;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+a:hover {
+	color: purple;
+}
+
+#photo {
+	width: 150px;
+	border-radius: 50%;
+	border: 3px solid #ddd;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-container {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+	width: 80%;
+	max-width: 600px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+@media(max-width: 500px) {
+	.profile-container {
+		width: 400px;
+	}
+}
+
+@media(max-width: 760px) {
+	.profile-container {
+		width: 600px;
+	}
+}
+
+.btn-blue {
+	display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff; 
+  text-align: center;
+  text-decoration: none;   
+  border-radius: 25px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: all 0.3s ease;
+}
+.btn-blue:hover {
+	background-color: #0056b3;
+}
+
+
+.sections {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+	max-width: 600px;
+}
+
+.section {
+	background-color: white;
+	padding: 20px;
+	border: 2px solid #ddd;
+	margin: 10px 0;
+	width: 100%;
+	border-radius: 8px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.social-links {
+	margin-top: 30px;
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	column-gap: 20px;
+	justify-content: center;
+}
+
+.social-icon {
+	width: 50px;
+	height: auto;
+}
+
+
+.text-center {
+	text-align: center;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.img-bordered {
+	border: 2px solid #ccc;
+	padding: 5px;
+}
+
+.box-shadow {
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
